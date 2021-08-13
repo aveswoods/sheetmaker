@@ -1,0 +1,26 @@
+.triplet-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ececec;
+  border-radius: 8px;
+}
+
+.triplet-stats input {
+  background-color: #ececec;
+  border: 1px solid black;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: smaller;
+  text-align: center;
+  width: 33%;
+}
+
+.triplet-stats input:hover {
+  background-color: #d6d6d6;
+}
+
+.triplet-stats p {
+  font-size: smaller;
+  text-align: center;
+  margin: 0px;
+}

@@ -1,0 +1,21 @@
+input.main-stat {
+  background-color: #ececec;
+  border: 1px solid black;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+input.main-stat:hover {
+  background-color: #d6d6d6;
+}
+
+p.main-stat {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  margin: 0px;
+}

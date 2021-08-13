@@ -1,0 +1,9 @@
+.item {
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 8px;
+  box-shadow: 0.5px 0 4px #34343456;
+  margin: 8px;
+  padding: 4px;
+  text-overflow: clip;
+}

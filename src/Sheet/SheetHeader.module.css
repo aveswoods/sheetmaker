@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0.5px 0 4px #34343456;
+  color: black;
+  padding: 4px;
+  z-index: 2;
+}
+
+.header p {
+  padding: 0px;
+  margin: 0px;
+  font-size: small;
+  height: max-content;
+}
+
+.header input {
+  background-color: #ececec;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+  font-size: small;
+  width: 200px;
+  height: max-content;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header input:hover {
+  background-color: #d6d6d6;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left {
+  flex-direction: row;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+.buttons {
+  position: fixed;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0vh;
+  left: 0vw;
+  z-index: 2;
+}
+
+/* Mobile */
+@media screen and (max-width: 450px) {
+  .header input {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .buttons {
+    padding: 5%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 700px) {
+  .buttons {
+    padding: 28px;
+  }
+}

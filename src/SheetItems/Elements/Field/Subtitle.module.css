@@ -1,0 +1,29 @@
+input.subtitle {
+  background-color: #ececec;
+  border: 1px solid black;
+  padding-bottom: 2px;
+  font-size: medium;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+input.subtitle:hover {
+  background-color: #d6d6d6;
+}
+
+p.subtitle {
+  padding: 2px 0 2px 0;
+  font-size: medium;
+  text-align: left;
+  word-wrap: break-word;
+  width: auto;
+  margin: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  p.subtitle, input.subtitle {
+    font-size: small;
+  }
+}

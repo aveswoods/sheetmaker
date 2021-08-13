@@ -1,0 +1,16 @@
+.option {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.option p {
+  font-size: medium;
+  text-align: center;
+  width: auto;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}

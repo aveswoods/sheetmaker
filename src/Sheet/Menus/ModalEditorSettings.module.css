@@ -1,0 +1,30 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 75%;
+  padding: 0px;
+  margin: 4px;
+}
+
+.option p {
+  font-size: large;
+  margin: auto 0px auto 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .option p {
+    font-size: medium;
+  }
+}

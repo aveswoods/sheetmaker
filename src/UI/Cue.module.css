@@ -1,0 +1,18 @@
+.cue {
+  flex-shrink: -1;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cue.invisible {
+  font-size: x-small;
+  color: rgba(0, 0, 0, 0);
+  transition: 1000ms ease-in;
+}
+
+.cue.visible {
+  font-size: x-small;
+  color: black;
+  transition: 0ms;
+}

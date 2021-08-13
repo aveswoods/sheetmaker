@@ -1,0 +1,42 @@
+.backdrop {
+  /* Initial animation */
+  animation: fade-in 50ms ease-out;
+  background-color: rgba(0, 0, 0, 10%);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+}
+
+.modal {
+  /* Initial animation */
+  animation: fade-in 50ms ease-out;
+  position: absolute;
+  width: 180px;
+  height: fit-content;
+  max-height: 240px;
+  z-index: 4;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings__default {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+input.title {
+  background-color: #ececec;
+  border: 1px solid black;
+  padding-bottom: 3px;
+  font-size: large;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+input.title:hover {
+  background-color: #d6d6d6;
+}
+
+p.title {
+  font-size: large;
+  text-align: center;
+  word-wrap: break-word;
+  width: auto;
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  p.title, input.title {
+    font-size: medium;
+  }
+}

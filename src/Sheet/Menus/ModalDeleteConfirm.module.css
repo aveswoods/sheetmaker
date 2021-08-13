@@ -1,0 +1,13 @@
+.confirm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.confirm p {
+  text-align: center;
+  font-size: medium;
+  padding: 0px;
+  margin: 8px;
+}

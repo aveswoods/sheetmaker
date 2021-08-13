@@ -1,0 +1,63 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 110vh;
+  background: rgb(33,155,192);
+  background: linear-gradient(180deg, rgba(33,155,192,1) 0%, rgba(6,138,179,1) 50%, rgba(7,119,153,1) 100%);
+  box-shadow: 0.5px 0 4px #34343456;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 50;
+  transform: translateY(-5%);
+}
+
+.overlay.closed {
+  transform: translateY(-110%);
+  transition: transform 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: xx-large;
+  color: white;
+  text-shadow: 0.5px 0 4px #34343456;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.author {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: small;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.button {
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  padding: 4px 0px 0px 0px;
+  margin: 16px;
+  font-size: 72px;
+  border: 0px;
+  box-shadow: 0.5px 0 4px #34343456;
+  color: #219bc0;
+
+  transition: .2s ease-out;
+}
+
+.button:hover {
+  width: 108px;
+  height: 108px;
+  font-size: 81px;
+  margin: 10px;
+}

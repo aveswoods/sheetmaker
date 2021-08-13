@@ -1,0 +1,32 @@
+input.textrow {
+  background-color: #ececec;
+  border: 1px solid black;
+  font-size: medium;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 100%;
+  height: fit-content;
+}
+
+input.textrow:hover, input.textrow:disabled {
+  background-color: #d6d6d6;
+}
+
+p.textrow {
+  font-size: medium;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: auto;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ececec;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 450px) {
+  p.textrow, input.textrow {
+    font-size: small;
+  }
+}

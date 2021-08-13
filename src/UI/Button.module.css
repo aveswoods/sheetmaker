@@ -1,0 +1,117 @@
+/* Basic format */
+
+.inline, .icon, .float {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.inline, .icon {
+  height: 36px;
+  border: 1px solid;
+  transition-duration: 0.1s;
+  margin: 4px;
+}
+
+.inline {
+  padding: 2px 8px 4px 8px;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: fit-content;
+  border-radius: 8px;
+  font-size: small;
+}
+
+.icon {
+  width: 36px;
+  border-radius: 18px;
+  font-size: medium;
+}
+
+.float {
+  width: 48px;
+  height: 48px;
+  border: 1px solid;
+  border-radius: 30px;
+  font-size: medium;
+  transition-duration: 0.1s;
+  margin: 4px;
+}
+
+/* Colors */
+.color-light {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.color-dark {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.color-primary {
+  color: white;
+  background-color: #219bc0;
+  border-color: #219bc0;
+}
+
+/* Hover effects */
+.color-light.inline:hover, .color-light.icon:hover {
+  background-color: #d6d6d6;
+}
+.color-light.inline:active, .color-light.icon:active {
+  background-color: #bdbdbd;
+}
+
+.color-dark.inline:hover, .color-dark.icon:hover {
+  background-color: #242424;
+}
+.color-dark.inline:active, .color-dark.icon:active {
+  background-color: #343434;
+  color: #bdbdbd;
+}
+
+.color-primary.inline:hover, .color-primary.icon:hover {
+  background-color: #188bad;
+}
+
+.color-primary.inline:active, .color-primary.icon:active {
+  background-color: #077799;
+  color: #cae1e6;
+}
+
+/* Shadowed effect */
+.shadowed {
+  box-shadow: 0.5px 0 4px #34343456;
+}
+
+/* Animations */
+.float.bump {
+  animation: bump 200ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 700px) {
+  .inline {
+    font-size: small;
+  }
+
+  .float:hover {
+    width: 56px;
+    height: 56px;
+    margin: 0px;
+    font-size: 1.167em;
+  }
+}

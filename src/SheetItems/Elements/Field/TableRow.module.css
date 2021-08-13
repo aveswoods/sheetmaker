@@ -1,0 +1,46 @@
+.tablerow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tablerow input {
+  background-color: #ececec;
+  border: 1px solid black;
+  font-size: small;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  overflow-wrap: break-word;
+  height: fit-content;
+}
+
+.tablerow input:hover, .tablerow input:disabled {
+  background-color: #d6d6d6;
+}
+
+.tablerow p {
+  border: 1px solid #ececec;
+  font-size: small;
+  text-align: center;
+  width: auto;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header input, .header p{
+  font-weight: bold;
+}
+
+.header p {
+  border: 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .tablerow p, .tablerow input {
+    font-size: x-small;
+  }
+}

@@ -1,0 +1,44 @@
+.backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 50%);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.modal {
+  /* Initial animation */
+  animation: pop-in 100ms ease-out;
+  position: fixed;
+  margin: 4px;
+  width: 50vw;
+  height: 30vh;
+  z-index: 11;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0%;
+    transform: scale(0.85);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .modal {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .modal {
+    height: 50vh;
+  }
+}

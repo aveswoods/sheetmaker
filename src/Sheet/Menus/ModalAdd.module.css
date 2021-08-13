@@ -1,0 +1,20 @@
+.selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+
+.selector select {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: medium;
+  background-color: #ececec;
+  border: 1px solid black;
+  margin: 8px;
+  transition-duration: 0.1s;
+}
+
+.selector select:hover {
+  background-color: #d6d6d6;
+}

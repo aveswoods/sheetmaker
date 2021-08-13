@@ -1,0 +1,25 @@
+COLOR SCHEME:
+- black (white font)
+- light grays #ececec, #d6d6d6, #bdbdbd
+- dark grays #343434, #242424
+- white (black font)
+- bright aqua #c5e8ee (black font)
+- aqua #219bc0; #188bad, #077799 (white font)
+
+BUTTON SHAPES:
+- 8px margins (4px for float)
+- 8px padding (0px for float)
+- 1px solid border
+- float: 48px, rounded
+- icon: 36px, rounded
+- inline: 36px, 8px rounded corners
+- inline/icon font is small, float is medium
+
+UI ITEM SHAPE:
+- 8px rounded corners
+- 8px margins
+- 4px padding
+- 4px solid border
+
+BOX SHADOW EVERYWHERE:
+0.5px 0 4px #34343456

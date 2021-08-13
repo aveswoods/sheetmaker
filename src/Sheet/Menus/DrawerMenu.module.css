@@ -1,0 +1,52 @@
+.backdrop {
+  background: rgba(0, 0, 0, 10%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 19;
+}
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0.5px 0 4px #34343456;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  transform: translateX(-110%);
+  transition: transform 0.3s ease;
+}
+
+.drawer.open {
+  transform: translate(0);
+}
+
+.title {
+  width: auto;
+  height: fit-content;
+  margin: 16px 8px 16px 8px;
+  padding: 0;
+  text-align: center;
+  font-size: large;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.disclaimer {
+  font-size: x-small;
+  text-align: center;
+}

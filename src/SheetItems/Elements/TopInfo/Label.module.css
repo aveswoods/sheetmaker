@@ -1,0 +1,36 @@
+input.label {
+  background-color: #ececec;
+  border: 1px solid black;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  height: fit-content;
+  width: 100px;
+  margin: 2px;
+  padding: 0px;
+}
+
+input.label:hover {
+  background-color: #d6d6d6;
+}
+
+p.label {
+  font-size: medium;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  text-align: left;
+  width: fit-content;
+  margin: 0px 2px 0px 2px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 450px) {
+  input.label, p.label {
+    font-size: small;
+  }
+
+  input.label {
+    width: 80px;
+  }
+}

@@ -1,0 +1,20 @@
+input.sub-stat {
+  font-size: medium;
+  text-align: center;
+  background-color: #ececec;
+  border: 1px solid black;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 50%;
+  height: auto;
+  margin: 0 25% 0 25%;
+}
+
+p.sub-stat {
+  font-size: medium;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 0% 25% 0% 25%;
+  background-color: #ececec;
+  border-radius: 8px;
+}

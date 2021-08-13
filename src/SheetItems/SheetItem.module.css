@@ -1,0 +1,30 @@
+.ellipse-button {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.small {
+  width: 20%;
+}
+
+.medium {
+  width: 30%;
+}
+
+.large {
+ width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .small {
+    width: 33%;
+  }
+
+  .medium {
+    width: 50%;
+  }
+
+  .large {
+    width: 100%;
+  }
+}
