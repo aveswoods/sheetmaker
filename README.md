@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Sheetmaker
+
+You can use this app [here]()
+
+## Overview
+
+*Sheetmaker* is a highly costumizable character sheet maker for table-top role-playing games. I created this app with 5e D&D in mind, but I designed the editor so that it can be used with any system just as easily. Essentially, you can **make custom character sheets tailored to your exact needs**. For example, if your group focuses on role-play much more than combat, then you can organize a sheet so that role-playing elements are at the top. Or, if you added your own combat system, you can add a detailed section all about it.
+
+## Features
+
+*Sheetmaker* allows you to create as many character sheets as you wish! (More accurately, as many as your browser will let you make.) They are viewed and created using The Editor
+
+### The Editor
+
+This is where the magic happens. There are two "modes": *Play* mode and *Edit* mode. *Play* mode is the default, and it has all the prettified sheet items. This is where you will spend most of your time after making a sheet. *Edit* mode allows you to add, edit, or delete items. Something to know about The Editor is that the sheet is divided into sections.
+
+A sheet has three main sections...
+- **Top Information Section**: Where things like your character name, level, and race go.
+- **Stats Section**: Where important numbers go, such as your character's strength or intelligence.
+- **Fields Section**: Where everything else goes! This takes up the majority of the editor.
+
+### Current Presets
+
+When making a new sheet, you can choose from a list of preset, partially-made sheets...
+
+- **Blank**: Completely bare canvas, ready for anything you can make! This is the sheet you start with.
+- **Basic 5e D&D**: Features a filled out **Top Information** section and **Stats** section.
+- **Full 5e D&D**: Has all starting fields necessary for basic character creation. 
+
+## Current Version
+
+**Version 0.1**:
+
+This is the first public release! 🍾
+
+The features are pretty bare-bones for now, but don't worry! There are more on the way. Currently, there is...
+
+- The Editor (described above).
+- Self-formatting, both desktop and mobile friendly.
+- Creating new sheets and deleting sheets.
+- Saving sheets to your browser's local storage.
+- Making and restoring backups of sheets.
+
+Right now, it *works*, but it is missing some quality-of-life features. Thankfully, I plan to develop these in the near future.
+
+## Future Development
+
+Here is a list of features I hope to implement ASAP:
+
+- Ability to move sheet items
+- Ability to delete specific sheet elements, instead of just the last one
+- Sharing sheets between friends through the editor
+- Mobile-friendly system of making/restoring backups
+- Better auto-formatting (specifically, a system that fills in empty space if there is any)
+- More item elements (taking suggestions!)
+- More sheet presets (also taking suggestions!)
+- General UI Improvements as needed
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
