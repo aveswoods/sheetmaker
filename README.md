@@ -1,6 +1,6 @@
 # Sheetmaker
 
-You can use this app [here]()
+You can use this app [here](https://azbmedia.azurewebsites.net/)
 
 ## Overview
 
@@ -29,7 +29,7 @@ When making a new sheet, you can choose from a list of preset, partially-made sh
 
 ## Current Version
 
-**Version 0.1**:
+**Version 0.1.1**:
 
 This is the first public release! 🍾
 

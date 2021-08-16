@@ -158,7 +158,7 @@ const Sheet = (props) => {
           zIndex: '-1'
         }}
       >
-        Sheetmaker v0.1<br />
+        Sheetmaker v0.1.1<br />
         Made by Ava Z. Beaver
       </p>
     </React.Fragment>
