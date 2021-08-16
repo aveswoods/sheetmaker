@@ -51,6 +51,7 @@
   border: 0px;
   box-shadow: 0.5px 0 4px #34343456;
   color: #219bc0;
+  background-color: white;
 
   transition: .2s ease-out;
 }

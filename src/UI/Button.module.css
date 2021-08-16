@@ -3,6 +3,7 @@
 .inline, .icon, .float {
   flex-grow: 0;
   flex-shrink: 0;
+  text-align: center;
 }
 
 .inline, .icon {
@@ -23,7 +24,7 @@
 .icon {
   width: 36px;
   border-radius: 18px;
-  font-size: medium;
+  font-size: 16px;
 }
 
 .float {
@@ -31,7 +32,7 @@
   height: 48px;
   border: 1px solid;
   border-radius: 30px;
-  font-size: medium;
+  font-size: 16px;
   transition-duration: 0.1s;
   margin: 4px;
 }
@@ -105,7 +106,7 @@
 /* Desktop */
 @media screen and (min-width: 700px) {
   .inline {
-    font-size: small;
+    font-size: 1.0em;
   }
 
   .float:hover {
