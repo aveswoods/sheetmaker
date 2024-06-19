@@ -1,7 +1,5 @@
 # Sheetmaker
 
-You can use this app [here](https://azbmedia.azurewebsites.net/)
-
 ## Overview
 
 *Sheetmaker* is a highly costumizable character sheet maker for table-top role-playing games. I created this app with 5e D&D in mind, but I designed the editor so that it can be used with any system just as easily. Essentially, you can **make custom character sheets tailored to your exact needs**. For example, if your group focuses on role-play much more than combat, then you can organize a sheet so that role-playing elements are at the top. Or, if you added your own combat system, you can add a detailed section all about it.
@@ -45,7 +43,7 @@ Right now, it *works*, but it is missing some quality-of-life features. Thankful
 
 ## Future Development
 
-Here is a list of features I hope to implement ASAP:
+Here is a list of features I hope to implement:
 
 - Ability to move sheet items
 - Ability to delete specific sheet elements, instead of just the last one
